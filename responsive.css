@@ -1,0 +1,43 @@
+@media (min-width:0px)and (max-width:1000px){
+    #navbar{
+        width: 100vw;
+        justify-content: space-around;
+
+    }
+    #navbar .h4 {
+        display: none;
+       
+    }
+    .menu{
+        display: inline-block;
+        cursor: pointer;
+
+    }
+    .bar{
+        width: 25px;
+        height:3px;
+        background-color: white;
+        margin: 5px 0;
+
+    }
+    #scroller{
+        display: none;
+    }
+    #main{
+        display: inline-table;
+    }
+    
+    .card {
+        height: auto; 
+         width: auto;
+    }
+    #footer{
+        display: block;
+        width:-webkit-fill-available;
+    }
+    
+    #f4{
+       font-size: xxx-large;
+    }
+    
+}
